@@ -1,14 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        #container {
-            display: none;
-            background-color: #f0f8ff;
-            text-align: center;
-        }
-    </style>
-</head>
 <body>
 <script>
     function fun() {
@@ -16,10 +7,7 @@
                                 .value;
         let correctPswd = "JaboSuf";
         if (inputPswd === correctPswd) {
-            document.getElementById("container")
-                .style.display = "block";
-            document.getElementById("pswd")
-                .style.display = "none";
+            alert("aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xcV9xZlRza0p1WEdHcE9mVjYzNjJmemE4bTZITGZWckUvdmlldz91c3A9c2hhcmluZw==");
         } else {
             alert("Onjuist Wachtwoord");
         }
@@ -35,9 +23,5 @@
            placeholder="Vul Wachtwoord In">
     <button type="button" onclick="fun()">Submit</button>
 </form>
-<div id="container">
-    <h2>Dat is het juist wachtwoord!</h2>
-    <h3>Hier is de kopij:</h3>
-</div>
 </body>
 </html>
